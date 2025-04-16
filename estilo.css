@@ -1,0 +1,228 @@
+/* tudo */
+*{
+    background-color: black;
+}
+/* parte bem de cima */
+.header{
+    display: flex;
+    justify-content: space-between;
+    padding: 20px 30px;
+    align-items: center;
+}
+/* banner com texto em cima */
+.backgroundImage{
+    background-image: url(banner-image.png);
+    background-size: cover;    
+    background-position: center;   
+    width: 1500px; 
+    height: 650px; 
+    display: grid; 
+    grid-template-columns: 1fr 1fr;
+    justify-content: space-between; 
+    align-items: center; 
+    text-align: center;  
+    color: white;
+}
+.middlePart{
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    color: white;
+    display: grid;
+    grid-column: 1/2;
+    text-align: left;
+    max-width: 70%;
+    margin: 0%;
+}
+.h1{
+    font-size: 50px;
+    margin-left: 50px;
+}
+.p1{
+    color: #8c8a97;
+    margin-left: 50px;
+}
+.saibaMaisBotao{
+    background-color: #FF0000;
+    color: white;
+    height: 50px;
+    width: 170px;
+    border-radius: 8px;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-size: 20px;
+    font-style: bolder;
+    margin-left: 50px;
+    border: none;
+    cursor: pointer;
+}
+
+/* linha de personagens */
+.h2Personas{
+    color: white;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    margin-top: 20px;
+    margin-left: 60px;
+    
+}
+.personagens{
+    margin-top: 50px;
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    align-content: center;
+    margin-left: 0;
+    flex-direction: row;
+    margin-bottom: 50px;
+}
+.capetao{
+    margin-left: 60px;
+}
+.arranha{
+    margin-right: 60px;
+}
+.nomes{
+    margin-top: 5px;
+    display: grid;
+    justify-content: space-between;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    align-content: center;
+    flex-direction: row;
+    color: white;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+.capitaoNome{
+    margin-left: 59px;
+}
+.ferroNome{
+    margin-left: 105px;
+}
+.capitaNome{
+    margin-left: 140px;
+}
+.aranhaNome{
+    margin-left: 190px;
+}
+.descricoes{
+    display: grid;
+    justify-content: space-between;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    align-content: center;
+    flex-direction: row;
+    color: #8c8a97;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+.capitaoDesc{
+    margin-left: 59px;
+    margin-right: 50px;
+}
+.ferroDesc{
+    margin-left: 70px;
+    margin-right: 50px;
+}
+.capitaDesc{
+    margin-left: 60px;
+    margin-right: 50px;
+}
+.aranhaDesc{
+    margin-left: 65px;
+    margin-right: 50px;
+}
+
+/* formulário */
+.backFormulario {
+    background-image: url(banner-image-2.png);
+    background-size: cover;    
+    background-position: center;   
+    width: 100%;
+    height: 650px; 
+    display: flex; 
+    flex-direction: column;
+    align-items: center; 
+    justify-content: center; 
+    padding: 30px;
+}
+.tituloForm {
+    color: white;
+    font-size: 35px;
+    margin-bottom: 20px;
+    background-color: transparent;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+.formulario {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 350px;
+    gap: 15px;
+    background-color: transparent;
+    color: white;
+    font-family: system-ui, sans-serif;
+    font-size: 16px;
+}
+.formulario label {
+    align-self: center;
+    font-weight: bold;
+    color: white;
+    background-color: #8c8a9700;
+}
+.formulario input,
+.formulario textarea {
+    width: 100%;
+    padding: 10px;
+    border: none;
+    border-radius: 8px;
+    background-color: white;
+    color: black;
+    font-size: 14px;
+    box-sizing: border-box;
+}
+.enviarBotao {
+    background-color: #FF0000;
+    color: white;
+    height: 45px;
+    width: 100%;
+    border: none;
+    border-radius: 8px;
+    font-size: 18px;
+    font-weight: bold;
+    cursor: pointer;
+    margin-top: 10px;
+    transition: background-color 0.3s;
+}
+
+/* parágrafo random */
+.blocoTexto{
+    color: white;
+    background-color: black;
+    margin-top: 40px;
+    margin-bottom: 60px;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.paragrafinho{
+    color: #8c8a97;
+    margin-left: 460px;
+    margin-right: 465px;
+    justify-content: center;
+    margin-bottom: 40px;
+}
+.saberBotao{
+    background-color: #FF0000;
+    color: white;
+    height: 50px;
+    width: 250px;
+    border-radius: 8px;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-size: 20px;
+    font-style: bolder;
+    border: none;
+    cursor: pointer;
+}
+
+/* pézinho */
+.footer{
+    display: flex;
+    justify-content: space-between;
+    padding: 20px 30px;
+    align-items: center;
+}
